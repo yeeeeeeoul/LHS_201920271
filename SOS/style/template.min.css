@@ -40,7 +40,7 @@ a:hover {
   text-align: center;
   flex-flow: column nowrap;
   justify-content: center;
-  background-color: aliceblue;
+  background-color: #ffff;
   font-size: 60px;
 }
 
@@ -50,7 +50,7 @@ a:hover {
   text-align: center;
   flex-flow: column nowrap;
   justify-content: center;
-  background-color: aliceblue;
+  background-color: #ffff;
   font-size: 60px;
 }
 
@@ -60,7 +60,7 @@ a:hover {
   text-align: center;
   flex-flow: column nowrap;
   justify-content: center;
-  background-color: aliceblue;
+  background-color: #ffff;
   font-size: 60px;
 }
 
@@ -70,7 +70,7 @@ a:hover {
   text-align: center;
   flex-flow: column nowrap;
   justify-content: center;
-  background-color: aliceblue;
+  background-color: #ffff;
   font-size: 60px;
   font-weight: bold;
 }
