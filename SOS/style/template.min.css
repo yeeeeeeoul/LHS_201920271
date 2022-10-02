@@ -16,7 +16,7 @@ body {
 }
 
 /* 스크롤 수정부분 */
-.scroll-container {
+/* .scroll-container {
   scroll-behavior: smooth;
   display: block;
   text-align: center;
@@ -78,7 +78,7 @@ a:hover {
   font-weight: 200;
   font-size: 30px;
   opacity: 60%;
-}
+} */
 
 /* 스크롤 수정부분 */
 

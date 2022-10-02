@@ -15,6 +15,10 @@
     />
     <link rel="stylesheet" href="./style/reset.min.css" />
     <link rel="stylesheet" href="./style/template.min.css" />
+    <!-- 이부분 추가하는거 잊지 말고 -->
+    <link rel="stylesheet" href="./style/override.css" />
+    <!-- 이부분 추가하는거 잊지 말고 -->
+    <script src="./script/prison.js" defer></script>
     <!-- edit 1 begin -->
     <title>손우성교수님_이현서_201920271</title>
     <!-- edit 1 end -->
@@ -39,50 +43,32 @@
         </div>
       </div>
     </div>
-    <div class="scroll-container">
-      <div id="section1">
-        <h> 인터넷 쇼핑의 경험이 있습니까?</h>
-        <a
-          href="#section2"
-          style="font-size: 24px; font-weight: bold; margin: 140px"
-          >Yes</a
-        >
-      </div>
-
-      <div id="section2">
-        <h>원하는 물건을 찾기 위해 시간을 들인 적이 있습니까?</h>
-        <a
-          href="#section3"
-          style="font-size: 24px; font-weight: bold; margin: 140px"
-          >Yes</a
-        >
-      </div>
-
-      <div id="section3">
-        <h>쇼핑에 실패한 경험이 있습니까?</h>
-        <a
-          href="#section4"
-          style="font-size: 24px; font-weight: bold; margin: 140px"
-          >Yes</a
-        >
-      </div>
-
-      <div id="section4">
-        <h>PROTHE</h> <br />
-        <p>scroll</p>
-      </div>
-    </div>
-
     <div class="section section--type-media">
       <!-- edit 4 begin -->
       <div class="container">
-        <!-- example of image begin -->
-        <lottie-player
-          src="./imgs/lottie1.json"
-          style="max-width: 800px"
-          loop
-          autoplay
-        ></lottie-player>
+        <!-- 여기 내용이 미디어섹션의 컨테이너 하위, 실제 내용 위 -->
+        <div class="prison">
+          <div id="cell1" class="cell">
+            <h6>인터넷 쇼핑의 경험이 있습니까?</h6>
+            <a href="#cell2">Yes</a>
+          </div>
+          <div id="cell2" class="cell">
+            <h6>
+              원하는 물건을 찾기 위해 시간을&nbsp;들인&nbsp;적이&nbsp;있습니까?
+            </h6>
+            <a href="#cell3">Yes</a>
+          </div>
+          <div id="cell3" class="cell">
+            <h6>쇼핑에 실패한 경험이 있습니까?</h6>
+            <a id="lastBtn" href="#cell4">Yes</a>
+          </div>
+          <div id="cell4" class="cell">
+            <h5>PROTHE</h5>
+            <br />
+            <p>scroll down</p>
+          </div>
+        </div>
+        <lottie-player src="./imgs/lottie1.json" loop autoplay></lottie-player>
 
         <img src="imgs/margin184.jpg" loading="lazy" />
         <img src="imgs/img1.jpg" loading="lazy" />
@@ -90,23 +76,13 @@
         <img src="imgs/img2.jpg" loading="lazy" />
         <img src="imgs/margin440.jpg" loading="lazy" />
 
-        <lottie-player
-          src="imgs/lottie1.json"
-          style="max-width: 800px"
-          loop
-          autoplay
-        ></lottie-player>
+        <lottie-player src="imgs/lottie1.json" loop autoplay></lottie-player>
 
         <img src="imgs/margin184.jpg" loading="lazy" />
         <img src="imgs/img3.jpg" loading="lazy" />
         <img src="imgs/margin184.jpg" loading="lazy" />
 
-        <lottie-player
-          src="imgs/lottie2.json"
-          style="max-width: 800px"
-          loop
-          autoplay
-        ></lottie-player>
+        <lottie-player src="imgs/lottie2.json" loop autoplay></lottie-player>
 
         <img src="imgs/margin600.jpg" loading="lazy" />
         <img src="imgs/img4.jpg" loading="lazy" />
@@ -114,39 +90,19 @@
         <img src="imgs/img5.jpg" loading="lazy" />
         <img src="imgs/margin440.jpg" loading="lazy" />
 
-        <lottie-player
-          src="imgs/lottie3.json"
-          style="max-width: 800px"
-          loop
-          autoplay
-        ></lottie-player>
+        <lottie-player src="imgs/lottie3.json" loop autoplay></lottie-player>
 
         <img src="imgs/margin600.jpg" loading="lazy" />
 
-        <lottie-player
-          src="imgs/lottie4.json"
-          style="max-width: 800px"
-          loop
-          autoplay
-        ></lottie-player>
+        <lottie-player src="imgs/lottie4.json" loop autoplay></lottie-player>
 
         <img src="imgs/margin184.jpg" loading="lazy" />
 
-        <lottie-player
-          src="imgs/lottie5.json"
-          style="max-width: 800px"
-          loop
-          autoplay
-        ></lottie-player>
+        <lottie-player src="imgs/lottie5.json" loop autoplay></lottie-player>
 
         <img src="imgs/margin600.jpg" loading="lazy" />
 
-        <lottie-player
-          src="imgs/lottie6.json"
-          style="max-width: 800px"
-          loop
-          autoplay
-        ></lottie-player>
+        <lottie-player src="imgs/lottie6.json" loop autoplay></lottie-player>
 
         <img src="imgs/margin600.jpg" loading="lazy" />
         <img src="imgs/img6.jpg" loading="lazy" />
